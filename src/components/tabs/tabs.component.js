@@ -74,7 +74,7 @@ class Category extends Component {
    * @returns {string} CSS style attribute string
    */
   static getBackgroundStyle(url) {
-    return `style="background-image: url(${url}); background-repeat: no-repeat; background-size: contain;"`;
+    return `style="background-image: url(${url}); background-repeat: no-repeat; background-size: contain; background-position: -8px"`;
   }
 
   /**
@@ -251,32 +251,6 @@ class Tabs extends Component {
           transform: translate(0, 4px);
           box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -0px 5px rgba(0, 0, 0, .1);
           color: var(--flavour);
-      }
-
-      .categories ul::after {
-          content: attr(class);
-          position: absolute;
-          display: flex;
-          text-transform: uppercase;
-          overflow-wrap: break-word;
-          width: 25px;
-          height: 250px;
-          padding: 1em;
-          margin: auto;
-          border-radius: 5px;
-          box-shadow: inset 0 0 0 2px var(--flavour);
-          left: calc(15% - 42.5px);
-          bottom: 0;
-          top: 0;
-          background: linear-gradient(to top, rgba(101, 228, 16, 0.32), transparent);
-          color: var(--flavour);
-          letter-spacing: 1px;
-          font: 800 30px 'Maple Mono', sans-serif;
-          text-align: center;
-          flex-wrap: wrap;
-          word-break: break-all;
-          align-items: center;
-          backdrop-filter: blur(3px);
       }
 
       .categories .links li:not(:last-child) {

@@ -30,15 +30,15 @@ const default_configuration = {
      ],
   tabs: [ 
     {
-      name: "page1",
-      background_url: "src/img/banners/banner_18.gif",
+      name: "home",
+      background_url: "src/img/banners/home.png",
       categories: [
         {
           name: "notebook",
           links: [
             {
               name: "coaching notes",
-              url: "",
+              url: "https://docs.google.com/document/d/1FvSQHLtJEf2vFSa17TzzJlS63d-ppDZiAhcsTQzSpfM/edit?exids=71471469,71471463&pli=1&tab=t.0#heading=h.hqv235i1qzyd",
               icon: "stars",
               icon_color: palette.red,
             },
@@ -54,8 +54,8 @@ const default_configuration = {
           name: "uh idk",
           links: [
             {
-              name: "toolbox",
-              url: "",
+              name: "if toolbox",
+              url: "https://www.ycfalliance.com/if-toolbox",
               icon: "tool",
               icon_color: palette.green,
             },
@@ -66,15 +66,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "thingamabob",
-              url: "",
+              name: "protonmail",
+              url: "https://www.mail.proton.me",
               icon: "mail-heart",
               icon_color: palette.red,
             },
             {
-              name: "gizmo",
-              url: "",
-              icon: "mail-opened",
+              name: "calendar",
+              url: "https://www.canva.com/design/DAG4g4FjwZ4/G6qUsQUkPhpSa02xQH5nTg/view",
+              icon: "calendar",
               icon_color: palette.blue,
             },
           ],
@@ -94,26 +94,26 @@ const default_configuration = {
     },
     {
       name: "teams",
-      background_url: "src/img/banners/banner_16.gif",
+      background_url: "src/img/banners/teams.png",
       categories: [
         {
           name: "strategy",
           links: [
             {
-              name: "ntl strategy",
-              url: "",
+              name: "captain's guide",
+              url: "https://docs.google.com/document/d/1iCbr6eIa1Wh82jM4g0U7bbmz8iMuD2KzCF3bgNXJGaA/edit?tab=t.2itfsa64ogcg",
               icon: "world",
               icon_color: palette.green,
             },
             {
-              name: "pledge",
-              url: "",
+              name: "citi pledge",
+              url: "https://www.ycfalliance.com/notyourfutureworkers",
               icon: "contrast-2",
               icon_color: palette.peach,
             },
             {
-              name: "idk",
-              url: "",
+              name: "planning",
+              url: "https://docs.google.com/document/d/1hw9HdGovAFhWRmXN4TL3bmtPD6c1pP1DX5IvfuyENC4/edit?tab=t.0",
               icon: "triangle",
               icon_color: palette.blue,
             },
@@ -124,7 +124,7 @@ const default_configuration = {
           links: [
             {
               name: "canva",
-              url: "",
+              url: "https://www.canva.com/",
               icon: "box",
               icon_color: palette.blue,
             },
@@ -180,7 +180,7 @@ const default_configuration = {
     },
     {
       name: "l inks",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/links.png",
       categories: [
         {
           name: "educational resources",
