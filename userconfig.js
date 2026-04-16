@@ -43,15 +43,15 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "captain notes",
-              url: "",
-              icon: "stars",
-              icon_color: palette.peach,
+              name: "earth day to may day",
+              url: "https://docs.google.com/document/d/1pp9nlyVE5qSPTj3JkjSQ0Pelefi_2_bfQaPVUyrH_NE/edit?tab=t.0#heading=h.9tru5nyn4zqi",
+              icon: "globe",
+              icon_color: palette.yellow,
             },
           ],
         },
         {
-          name: "uh idk",
+          name: "tookit?",
           links: [
             {
               name: "if toolbox",
@@ -80,13 +80,13 @@ const default_configuration = {
           ],
         },
         {
-          name: "secret third thing",
+          name: "logistics?",
           links: [
             {
-              name: "who knows",
-              url: "",
-              icon: "plant",
-              icon_color: palette.blue,
+              name: "chapter funding",
+              url: "https://docs.google.com/document/d/1km96ryHzvgCZmKWr1rL-f1Um7JcLddVpwJuta4XP0gg/edit?tab=t.jbe7wad6bqpf#heading=h.jfo8wbwq98fv",
+              icon: "cash",
+              icon_color: palette.green,
             },
           ],
         },
@@ -117,12 +117,6 @@ const default_configuration = {
               icon: "triangle",
               icon_color: palette.blue,
             },
-            {
-              name: "earth day to may day",
-              url: "https://docs.google.com/document/d/1pp9nlyVE5qSPTj3JkjSQ0Pelefi_2_bfQaPVUyrH_NE/edit?tab=t.0#heading=h.9tru5nyn4zqi",
-              icon: "earth",
-              icon_color: palette.yellow,
-            }
           ],
         },
         {
