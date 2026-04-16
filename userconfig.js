@@ -117,6 +117,12 @@ const default_configuration = {
               icon: "triangle",
               icon_color: palette.blue,
             },
+            {
+              name: "earth day to may day",
+              url: "https://docs.google.com/document/d/1pp9nlyVE5qSPTj3JkjSQ0Pelefi_2_bfQaPVUyrH_NE/edit?tab=t.0#heading=h.9tru5nyn4zqi",
+              icon: "earth",
+              icon_color: palette.yellow,
+            }
           ],
         },
         {
